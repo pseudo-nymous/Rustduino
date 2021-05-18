@@ -131,7 +131,7 @@ int main()
         }
         if(limitExceeded)
         {
-                cout<<"Numbers are restricted to [0,1000] only"<<endl;
+                cout<<"Incorrect input: numbers cannot exceed 1000. Program terminated, please try again."<<endl;
                 return 0;
         }
         vector<int>vals(3);
